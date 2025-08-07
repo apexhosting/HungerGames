@@ -1,9 +1,9 @@
-# 
+#
 # Revamped by: ShaneBee
-# 
+#
 # Issues: Please report issues on the BitBucket issue tracker @ https://bitbucket.org/ShaneBeeStudios/hungergames/issues?status=new&status=open
 # Updates: Can be found on SpigotMC @ --- coming soon
-# 
+#
 # More Info: See the wiki for more info on this config @ https://bitbucket.org/ShaneBeeStudios/HungerGames/wiki/Config.yml
 
 settings:
@@ -28,6 +28,10 @@ settings:
   broadcast-join-messages: true
   broadcast-win-messages: true
   save-previous-location: true
+  enable-leave-item: true
+  enable-force-start-item: true
+  leave-item-type: RED_BED
+  force-start-item-type: NETHER_STAR
 reward:
   enabled: false
   cash: 500
@@ -132,3 +136,6 @@ team:
   max-team-size: 3
   allow-friendly-fire: false
   can-see-friendly-invisibles: true
+party:
+  # If we should hook into Party plugins
+  allow-party: true

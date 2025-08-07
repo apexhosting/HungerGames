@@ -4,7 +4,7 @@
 #  Messages that contain <> indicate things that the plugin replaces, such as <player> or <distance>
 #  Comments in this file will be removed if we update messages during a plugin update
 #  To restore these messages, backup this file, delete it, and restart your server, this will create a new lang file with all the notes
-# 
+#
 #  GENERAL PLUGIN MESSAGES
 prefix: '&7&l[&3&lHungerGames&7&l] '
 player-joined-game: '&7(&e&l!&7)&b&l<player> &7Has joined the game'
@@ -13,16 +13,18 @@ game-started: '&7(&e&l!&7)&6&l Arena &c&l<arena> &6&lwill begin in 30 seconds!'
 game-join: '&7(&e&l!&7)&6&l Use:&c&l /hg join <arena>&6&l to join!'
 game-countdown: '&7(&e&l!&7)The game will start in <timer> seconds..'
 game-almost-over: '&7(&e&l!&7)&l&cThe game is almost over, fight to the death!'
-game-ending-minsec: '&7(&e&l!&7)&aThe game is ending in <minutes> minute(s), and <seconds> second(s)!'
+game-ending-minsec: '&7(&e&l!&7)&aThe game is ending in <minutes> minute(s), and <seconds>
+  second(s)!'
 game-ending-min: '&7(&e&l!&7)&aThe game is ending in <minutes> minute(s)!'
 game-ending-sec: '&7(&e&l!&7)&athe game is ending in <seconds> second(s)!'
-game-border-closing: '&7(&e&l!&7)&6The border is coming, you have <seconds> seconds to get to
-  the center of the arena!'
+game-border-closing: '&7(&e&l!&7)&6The border is coming, you have <seconds> seconds
+  to get to the center of the arena!'
 game-chests-refill: '&6Chests have been refilled'
 game-bossbar: '&6&lGame Ends In: &b&l<min> &7min &b&l<sec> &7sec'
 players-to-start: '&b&l<amount> &6players to start!'
 arena-not-ready: '&cThis arena is not ready! Please wait before joining!'
-arena-spectate: '&7(&e&l!&7)&6You can spectate this arena by running &3/hg spectate <arena>'
+arena-spectate: '&7(&e&l!&7)&6You can spectate this arena by running &3/hg spectate
+  <arena>'
 game-full: '&cis currently full!'
 player-won: '&7(&e&l!&7)&b&l<winner> &6won HungerGames at arena &b&l<arena>&7!'
 winning-amount: '&7You received &b$<amount> &7for winning &3&lHunger&b&lGames!'
@@ -147,7 +149,8 @@ cmd-border-size: '&6Border size for &b<arena> &6has been set to &b<size>'
 cmd-border-center: '&6Border center for &b<arena> &6has been set at your location'
 cmd-border-timer: '&6Border time for &b<arena> &6has been set to start at remaining
   &b<start> seconds &6and stop at &b<end> seconds'
-listener-not-running: '&7(&e&l!&7)&eYou need to wait for the grace period to expire to do that!'
+listener-not-running: '&7(&e&l!&7)&eYou need to wait for the grace period to expire
+  to do that!'
 listener-no-edit-block: '&cYou cannot edit this block type!'
 listener-no-interact: '&cYou cannot interact until the game has started!'
 listener-sign-click-hand: '&cClick the sign with your hand!'
@@ -181,3 +184,5 @@ check-invalid-lobby: '&cYour LobbyWall is invalid! Please reset them!'
 check-set-lobby: '&6Set lobbywall: &7/hg setlobbywall <arena>'
 check-ready-run: '&aYour HungerGames arena &7<arena>&a is ready to run!'
 lb-missing-player: <none>
+leave-game-item-name: Leave Game
+force-start-item-name: Force Start Game

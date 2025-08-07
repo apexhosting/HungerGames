@@ -7,7 +7,7 @@ Survival Games has been a super popular game type ever since the original Hunger
 ## [Host it with Apex Hosting!](https://apexminecrafthosting.com/pricing/)  
 
 ## Minecraft Version  
-This pack is designed for Minecraft version 1.20.6; however, **newer versions can connect** thanks to the ViaVersion plugin!
+This pack is designed for Minecraft version 1.21.8; however, **older versions can connect** thanks to the ViaBackwards plugin!
 
 ## Recommended RAM  
 We recommend allocating **2-5 GB** of RAM for optimal performance, depending on the number of players you plan to have.
